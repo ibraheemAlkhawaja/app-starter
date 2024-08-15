@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: white;
+}
+.navbar-brand{
+    margin: 0px 20px;
+    color: blue;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar-brand span{
+    color: aqua;
+}
+.nav-link{
+    text-transform: uppercase;
+    margin: 0px 10px;
+}
+.hero{
+    background-image: url(img/home-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.hero .row{
+    height: 100%;
+}
+.hero-content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
